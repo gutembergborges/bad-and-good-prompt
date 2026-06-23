@@ -1,4 +1,4 @@
-# a better prompt: 
+# GOOD AND BETTER PROMPT USED:
 # "Write a Python function that takes a list of integers and returns a new list where each number is squared, excluding any negative numbers."
 # ! This prompt shows:
 # Language we want to use; The goal of the function; Constraints; Expected input type
@@ -28,7 +28,7 @@ result = square_numbers([-1, -2, -3])
 print(result)  # Output: []
 '''
 
-# improved this prompt replying with context:
+# IMPROVE THIS PROMPT REPLYING WITH CONTEXT:
 # "You don't take a list of integers; you pre-create many lists of integers. I didn't ask you this.
 # When I ask 'write a Python function THAT TAKES a list of integers', the function needs to TAKE a list of integers, 
 # which means the function needs an input of numbers from the user to TAKE a list of numbers to square them after.

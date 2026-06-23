@@ -1,4 +1,4 @@
-# bad and simple prompt: 
+# BAD AND SIMPLE PROMPT USED: 
 # "write a function that will square number in a list
 # ? What a language? Any negative number? Any non-numbers? Return a new list?
 
