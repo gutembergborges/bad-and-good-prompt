@@ -142,6 +142,10 @@ To add new examples:
 
 MIT License - Feel free to use these examples in your learning or teaching.
 
+## 👨‍💻 Author
+
+[Gutemberg de Almeida Borges/@gutembergborges]
+
 ---
 
 **Tip 1**: Always read the prompt header first. The quality of the code below is a direct reflection of the instructions above.
