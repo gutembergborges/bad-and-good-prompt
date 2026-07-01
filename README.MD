@@ -6,9 +6,9 @@ A collection of bad and good prompts to demonstrate how to create, modify, and i
 
 ```
 ├── bad-prompt/
-│   └── [filename].py       # Code generated from bad, vague, unstructured prompts
+│   └── [file]       # Code generated from bad, vague, unstructured prompts
 ├── good-prompt/
-│   └── [filename].py       # Code generated from good, clear, structured prompts
+│   └── [file]       # Code generated from good, clear, structured prompts
 └── README.md
 ```
 
@@ -109,15 +109,16 @@ Each improved prompt follows these principles:
 cd bad-prompt
 
 # View the prompt and code
-cat [filename].py 
+cat [filename].[extension]
 
 # Compare with improved version
 cd ../good-prompt
-cat [filename].py
+cat [filename].[extension]
 ```
 
 ## 🛠️ Running the Examples
 
+### Python
 ```bash
 # Navigate to an example
 cd bad-prompt
@@ -128,6 +129,54 @@ python3 [filename].py
 # Compare with improved version
 python3 ../good-prompt/[filename].py
 ```
+
+### Node.js
+
+#### 1. Install Dependencies
+
+Initialize the project and install the required packages.
+
+```bash
+npm init -y
+npm install
+```
+
+If your project doesn't include a `package.json`, install the required packages manually:
+
+```bash
+npm install <package-name>
+```
+
+#### 2. Configure the Project
+
+Create or update the necessary project files, such as:
+
+* `index.js` (or another entry point)
+* Configuration files
+* Environment variables (if required)
+
+Make sure all required modules are imported correctly.
+
+#### 3. Add Your Code
+
+Save your code in the appropriate project files and ensure that imports, exports, and file paths are configured correctly.
+
+#### 4. Run the Application
+
+Execute the project with Node.js:
+
+```bash
+node index.js
+```
+
+Replace `index.js` with your project's entry file if it has a different name.
+
+#### Notes
+
+* Ensure that Node.js is installed on your system.
+* Install all required dependencies before running the project.
+* If the project uses external services (such as a database or API), make sure they are configured and running before execution.
+
 
 ## 📝 Contributing
 
